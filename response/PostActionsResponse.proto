@@ -1,0 +1,9 @@
+syntax = "proto3";
+option java_multiple_files = true;
+package fkhp.gateway.layer.client.response;
+import "google/protobuf/any.proto";
+
+message PostActionsResponse{
+  string type=1;
+  google.protobuf.Any domainObject=2;
+}

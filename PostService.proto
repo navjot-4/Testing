@@ -1,0 +1,10 @@
+syntax = "proto3";
+option java_multiple_files = true;
+package fkhp.gateway.layer.client;
+
+import "requests/PostActionsRequest.proto";
+import "response/PostActionsResponse.proto";
+
+service PostService{
+  rpc doPostAction(fkhp.gateway.layer.client.requests.PostActionsRequest) returns (fkhp.gateway.layer.client.response.PostActionsResponse){}
+}

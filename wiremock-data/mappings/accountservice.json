@@ -1,0 +1,13 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "/fkhp.gateway.layer.client.PostService/doPostAction"
+  },
+  "response": {
+    "status": 200,
+    "body": "{\"type\":\"same\" } ",
+    "transformers": [
+      "response-template"
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+syntax = "proto3";
+option java_multiple_files = true;
+package fkhp.gateway.layer.client.requests;
+
+
+message PostActionsRequest{
+  string type=1;
+  map<string,string> request=2;
+}
+
+message Name{
+  string firstName=1;
+  string lastName=2;
+}
+
+message ListOfNames{
+  repeated Name names=1;
+}
+
+message Address{
+  string addressLine=1;
+  string landMark=2;
+  string city=3;
+  string pincode=4;
+}
+
+message Bio{
+  Name name=1;
+  Address address=2;
+}

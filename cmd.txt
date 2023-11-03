@@ -1,0 +1,16 @@
+.
+├── ExampleServices.proto
+├── cmd.txt
+├── model
+│    ├── enum
+│        └── enum1.proto
+│    └── hello.proto
+├── run1.sh
+├── wiremock-data
+│        ├── __files
+│        ├── grpc
+│        │       └── descriptors.dsc
+│        └── mappings
+│            └── greeting.json
+├── wiremock-grpc-extension-standalone-0.2.0.jar
+└── wiremock-standalone-3.2.0.jar
