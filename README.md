@@ -1,5 +1,5 @@
 # Testing
 to run use following command
 ```bash
-./run.sh
+./run1.sh
 ```
