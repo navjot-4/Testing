@@ -1,3 +1,5 @@
 # Testing
-to run 
+to run use following command
+```bash
 ./run.sh
+```
